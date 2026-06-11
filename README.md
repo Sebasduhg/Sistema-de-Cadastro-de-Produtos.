@@ -41,7 +41,7 @@ Feijão - R$ 8,50 - quantidade: 20 - valor total: R$ 170,00
 ## 📁 Estrutura do Projeto
 
 ```text
-📦 SistemaCadastroProdutos
+📦 Sistema-de-Cadastro-de-Produtos
  ┣ 📜 Main.java
  ┗ 📜 Produto.java
 ```
@@ -68,7 +68,7 @@ git clone https://github.com/Sebasduhg/Sistema-de-Cadastro-de-Produtos.git
 2. Entre na pasta do projeto:
 
 ```bash
-cd SistemaCadastroProdutos
+cd Sistema-de-Cadastro-de-Produtos
 ```
 
 3. Compile os arquivos:
