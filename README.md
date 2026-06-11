@@ -1,40 +1,17 @@
-# Sistema de Cadastro de Produtos em Java
+# 📦 Sistema de Cadastro de Produtos
 
-## 📖 Sobre o Projeto
+Um sistema simples de gerenciamento de produtos desenvolvido em Java para praticar conceitos básicos da linguagem e Programação Orientada a Objetos (POO).
 
-Este é um projeto simples desenvolvido em Java com o objetivo de praticar conceitos fundamentais da linguagem, como:
+## ✨ Funcionalidades
 
-* Classes e Objetos
-* ArrayList
-* Estruturas de repetição (`for` e `while`)
-* Estruturas de decisão (`switch` e `if`)
-* Métodos
-* Entrada de dados com `Scanner`
+* Cadastro de produtos
+* Listagem de produtos cadastrados
+* Busca de produtos pelo nome
+* Remoção de produtos
+* Exibição do valor total de cada produto (preço × quantidade)
+* Menu interativo no terminal
 
-O sistema funciona através de um menu interativo no terminal, permitindo o gerenciamento de produtos.
-
----
-
-## 🚀 Funcionalidades
-
-* ✅ Cadastrar produtos
-* ✅ Listar produtos cadastrados
-* ✅ Buscar produto pelo nome
-* ✅ Remover produto da lista
-* ✅ Exibir preço, quantidade e valor total do produto
-* ✅ Encerrar o programa através do menu
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* Java
-* IntelliJ IDEA (ou qualquer IDE Java)
-* JDK 17+
-
----
-
-## 📋 Exemplo de Uso
+## 🖥️ Demonstração
 
 ```text
 === MENU DE INTERAÇÕES ===
@@ -47,30 +24,71 @@ O sistema funciona através de um menu interativo no terminal, permitindo o gere
 Digite a opção desejada:
 ```
 
-### Exemplo de Produto
+### Exemplo de saída
 
 ```text
-Arroz - R$ 25.00 - quantidade: 10 - valor total: R$ 250.00
+Arroz - R$ 25,00 - quantidade: 10 - valor total: R$ 250,00
+Feijão - R$ 8,50 - quantidade: 20 - valor total: R$ 170,00
 ```
 
----
+## 🚀 Tecnologias Utilizadas
 
-## 📂 Estrutura do Projeto
+* Java
+* Scanner
+* ArrayList
+* Programação Orientada a Objetos (POO)
+
+## 📁 Estrutura do Projeto
 
 ```text
-src/
-├── Main.java
-└── Produto.java
+📦 SistemaCadastroProdutos
+ ┣ 📜 Main.java
+ ┗ 📜 Produto.java
 ```
 
----
+## 🎯 Objetivo do Projeto
 
-## 🎯 Objetivo
+Este projeto foi desenvolvido com o objetivo de praticar:
 
-Este projeto foi criado para fins de estudo e prática de programação orientada a objetos em Java.
+* Criação de classes e objetos
+* Manipulação de listas com ArrayList
+* Estruturas de repetição
+* Estruturas condicionais
+* Métodos
+* Entrada de dados pelo terminal
 
----
+## 🔧 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Sebasduhg/Sistema-de-Cadastro-de-Produtos.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd SistemaCadastroProdutos
+```
+
+3. Compile os arquivos:
+
+```bash
+javac *.java
+```
+
+4. Execute o programa:
+
+```bash
+java Main
+```
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto foram utilizados conceitos fundamentais da linguagem Java, servindo como base para projetos maiores e mais complexos.
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Eduardo Tabosa.
+**Eduardo Tabosa Costa**
+
+Projeto desenvolvido para fins de estudo e aprendizado em Java.
