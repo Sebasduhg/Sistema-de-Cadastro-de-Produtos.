@@ -89,6 +89,6 @@ Durante o desenvolvimento deste projeto foram utilizados conceitos fundamentais 
 
 ## 👨‍💻 Autor
 
-**Eduardo Tabosa Costa**
+**Eduardo Tabosa**
 
 Projeto desenvolvido para fins de estudo e aprendizado em Java.
